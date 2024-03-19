@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vaccination Data Display</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <h1>Vaccination Data Display</h1>
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>Child's Name</th>
+                <th>Parent's ID</th>
+                <th>Parent's Email</th>
+                <th>Gender</th>
+                <th>Date of Birth</th>
+                <th>Vaccination Schedule</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be dynamically populated here -->
+        </tbody>
+    </table>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+
+</body>
+
+</html>
